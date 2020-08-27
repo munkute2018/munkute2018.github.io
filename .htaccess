@@ -10,11 +10,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+/web)/.*$ $1/index.php
 
-# disable directory browsing
-Options All -Indexes
-
-<files ~ “^.*\.([Hh][Tt][Aa])”>
-order allow,deny
-deny from all
-satisfy all
-</files>
