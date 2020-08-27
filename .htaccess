@@ -1,9 +1,1 @@
-RewriteEngine On
-
-RewriteRule ^(frontend|backend)/web/ - [L]
-
-RewriteRule ^backend(/(.*))?$ backend/web/$2 [S=1]
-
-RewriteRule .* frontend/web/$0
-RewriteRule ^([^/]+/web)/.*$ $1/index.php
 
