@@ -37,7 +37,7 @@
     },
     "scripts": {
         "post-install-cmd": "sh post-install-cmd.sh"
-      }
+      },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
