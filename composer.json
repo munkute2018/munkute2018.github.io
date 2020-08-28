@@ -32,8 +32,12 @@
         "kartik-v/yii2-widget-depdrop": "dev-master",
         "kartik-v/yii2-tree-manager": "dev-master",
         "kartik-v/yii2-editable": "dev-master",
-        "kartik-v/yii2-widget-touchspin": "dev-master"
+        "kartik-v/yii2-widget-touchspin": "dev-master",
+        "ext-gd": "*"
     },
+    "scripts": {
+        "post-install-cmd": "sh post-install-cmd.sh"
+      }
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
